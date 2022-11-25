@@ -84,11 +84,11 @@ function Input() {
             style={
               row.active
                 ? { backgroundColor: "green" }
-                : { backgroundColor: "red" }
+                : { backgroundColor: "yellow" }
             }
             onClick={() => handleDisabled(index)}
           >
-            {row.active ? "ABLED" : "DISABLED"}
+            {row.active ? "Abled" : "Disabled"}
           </button>
         </div>
       ))}
