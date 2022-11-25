@@ -61,7 +61,7 @@ function Input() {
             onChange={(e) => handleSymbol(index, e.target.value)}
             defaultValue={"-"}
           >
-            <option>++</option>
+            <option>+</option>
 
             <option>-</option>
           </select>
