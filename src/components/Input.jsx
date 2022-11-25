@@ -58,7 +58,7 @@ function Input() {
       {row.map((row, index) => (
         <div key={index} className="child-box">
           <select
-            onChange={(e) => handleSymbol(index, e.target.value)}
+            onChange={(event) => handleSymbol(index, event.target.value)}
             defaultValue={"-"}
           >
             <option>+</option>
@@ -69,7 +69,7 @@ function Input() {
           <input
             type="number"
             defaultValue={row.input}
-            onChange={(e) => handleInput(index, e.target.value)}
+            onChange={(event) => handleInput(index, event.target.value)}
           />
 
           <button
